@@ -1,0 +1,33 @@
+Version 4
+SymbolType BLOCK
+LINE Normal -16 33 -16 -32
+LINE Normal 48 1 -16 33
+LINE Normal -16 -32 48 1
+LINE Normal 16 -32 16 -16
+LINE Normal 16 17 16 33
+LINE Normal -3 16 -13 16
+LINE Normal -3 -16 -13 -16
+LINE Normal -8 21 -8 11
+LINE Normal 37 -24 27 -24
+LINE Normal 32 -19 32 -29
+LINE Normal 37 24 27 24
+WINDOW 0 77 -18 Bottom 2
+WINDOW 3 77 22 Top 2
+SYMATTR Value LM358
+SYMATTR Prefix X
+SYMATTR ModelFile C:\Users\Aarranon\Documents\LTspiceXVII\3rdPartyModels\LMx58_LM2904.CIR
+PIN -16 16 NONE 8
+PINATTR PinName +IN
+PINATTR SpiceOrder 1
+PIN -16 -16 NONE 14
+PINATTR PinName -IN
+PINATTR SpiceOrder 2
+PIN 16 -32 NONE 8
+PINATTR PinName VCC
+PINATTR SpiceOrder 3
+PIN 16 32 NONE 8
+PINATTR PinName VEE
+PINATTR SpiceOrder 4
+PIN 48 0 NONE 8
+PINATTR PinName OUT
+PINATTR SpiceOrder 5
